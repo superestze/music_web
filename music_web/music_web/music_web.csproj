@@ -94,10 +94,35 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music-vue\.gitignore" />
+    <Content Include="music-vue\.postcssrc.js" />
+    <Content Include="music-vue\build\build.js" />
+    <Content Include="music-vue\build\check-versions.js" />
+    <Content Include="music-vue\build\dev-client.js" />
+    <Content Include="music-vue\build\dev-server.js" />
+    <Content Include="music-vue\build\utils.js" />
+    <Content Include="music-vue\build\vue-loader.conf.js" />
+    <Content Include="music-vue\build\webpack.base.conf.js" />
+    <Content Include="music-vue\build\webpack.dev.conf.js" />
+    <Content Include="music-vue\build\webpack.prod.conf.js" />
+    <Content Include="music-vue\config\dev.env.js" />
+    <Content Include="music-vue\config\index.js" />
+    <Content Include="music-vue\config\prod.env.js" />
+    <Content Include="music-vue\index.html" />
+    <Content Include="music-vue\src\assets\logo.png" />
+    <Content Include="music-vue\src\main.js" />
+    <Content Include="music-vue\src\router\index.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="music-vue\src\App.vue" />
+    <Content Include="music-vue\src\components\Hello.vue" />
+    <Content Include="music-vue\static\.gitkeep" />
+    <Content Include="music-vue\.babelrc" />
+    <Content Include="music-vue\.editorconfig" />
+    <Content Include="music-vue\package.json" />
+    <Content Include="music-vue\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
