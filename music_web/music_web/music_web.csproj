@@ -110,6 +110,16 @@
     <Content Include="music-vue\config\prod.env.js" />
     <Content Include="music-vue\index.html" />
     <Content Include="music-vue\src\assets\logo.png" />
+    <Content Include="music-vue\src\common\fonts\music-icon.svg" />
+    <Content Include="music-vue\src\common\image\default.png" />
+    <Content Include="music-vue\src\common\js\cache.js" />
+    <Content Include="music-vue\src\common\js\config.js" />
+    <Content Include="music-vue\src\common\js\dom.js" />
+    <Content Include="music-vue\src\common\js\jsonp.js" />
+    <Content Include="music-vue\src\common\js\mixin.js" />
+    <Content Include="music-vue\src\common\js\singer.js" />
+    <Content Include="music-vue\src\common\js\song.js" />
+    <Content Include="music-vue\src\common\js\util.js" />
     <Content Include="music-vue\src\main.js" />
     <Content Include="music-vue\src\router\index.js" />
     <Content Include="packages.config" />
@@ -117,12 +127,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="music-vue\src\App.vue" />
-    <Content Include="music-vue\src\components\Hello.vue" />
     <Content Include="music-vue\static\.gitkeep" />
     <Content Include="music-vue\.babelrc" />
     <Content Include="music-vue\.editorconfig" />
     <Content Include="music-vue\package.json" />
     <Content Include="music-vue\README.md" />
+    <Content Include="music-vue\src\common\fonts\music-icon.eot" />
+    <Content Include="music-vue\src\common\fonts\music-icon.ttf" />
+    <Content Include="music-vue\src\common\fonts\music-icon.woff" />
+    <Content Include="music-vue\src\common\stylus\base.styl" />
+    <Content Include="music-vue\src\common\stylus\icon.styl" />
+    <Content Include="music-vue\src\common\stylus\index.styl" />
+    <Content Include="music-vue\src\common\stylus\mixin.styl" />
+    <Content Include="music-vue\src\common\stylus\reset.styl" />
+    <Content Include="music-vue\src\common\stylus\variable.styl" />
+    <Content Include="music-vue\src\component\m-header\m-header.vue" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,6 +156,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="music-vue\src\api\" />
+    <Folder Include="music-vue\src\base\" />
+    <Folder Include="music-vue\src\store\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
